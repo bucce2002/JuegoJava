@@ -14,6 +14,8 @@ import javax.swing.JDesktopPane;
 import javax.swing.JTextPane;
 import javax.swing.SwingConstants;
 import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class Combate3 extends JFrame {
 
@@ -71,21 +73,37 @@ public class Combate3 extends JFrame {
 		panel.add(textPane);
 		
 		JButton btnNewButton = new JButton("Atacar");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			}
+		});
 		btnNewButton.setBackground(Color.RED);
 		btnNewButton.setBounds(0, 99, 184, 50);
 		panel.add(btnNewButton);
 		
 		JButton btnBloquear = new JButton("Bloquear");
+		btnBloquear.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			}
+		});
 		btnBloquear.setBackground(Color.GREEN);
 		btnBloquear.setBounds(0, 183, 184, 50);
 		panel.add(btnBloquear);
 		
 		JButton btnNewButton_1 = new JButton("Atacar");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			}
+		});
 		btnNewButton_1.setBackground(Color.RED);
 		btnNewButton_1.setBounds(236, 99, 202, 50);
 		panel.add(btnNewButton_1);
 		
 		JButton btnBloquear_1 = new JButton("Bloquear");
+		btnBloquear_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			}
+		});
 		btnBloquear_1.setBackground(Color.GREEN);
 		btnBloquear_1.setBounds(236, 183, 202, 50);
 		panel.add(btnBloquear_1);

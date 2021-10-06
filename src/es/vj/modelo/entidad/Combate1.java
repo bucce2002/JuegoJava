@@ -92,16 +92,28 @@ public class Combate1 extends JFrame {
 		panel.add(btnNewButton);
 		
 		JButton btnCurandero = new JButton("Curandero");
+		btnCurandero.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			}
+		});
 		btnCurandero.setBackground(Color.GREEN);
 		btnCurandero.setBounds(0, 162, 182, 21);
 		panel.add(btnCurandero);
 		
 		JButton btnNewButton_1_1 = new JButton("Mago");
+		btnNewButton_1_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			}
+		});
 		btnNewButton_1_1.setBackground(Color.YELLOW);
 		btnNewButton_1_1.setBounds(0, 209, 182, 21);
 		panel.add(btnNewButton_1_1);
 		
 		JButton btnNewButton_1 = new JButton("Guerrero");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			}
+		});
 		btnNewButton_1.setBackground(Color.RED);
 		btnNewButton_1.setBounds(236, 113, 212, 21);
 		panel.add(btnNewButton_1);
@@ -116,6 +128,10 @@ public class Combate1 extends JFrame {
 		panel.add(btnNewButton_1_2);
 		
 		JButton btnNewButton_1_2_1 = new JButton("Mago");
+		btnNewButton_1_2_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			}
+		});
 		btnNewButton_1_2_1.setBackground(Color.YELLOW);
 		btnNewButton_1_2_1.setBounds(236, 209, 212, 21);
 		panel.add(btnNewButton_1_2_1);

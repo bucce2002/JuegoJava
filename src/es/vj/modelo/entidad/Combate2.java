@@ -92,6 +92,10 @@ public class Combate2 extends JFrame {
 		panel.add(btnNewButton);
 		
 		JButton btnCurandero = new JButton("Espada");
+		btnCurandero.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			}
+		});
 		btnCurandero.setBackground(Color.GREEN);
 		btnCurandero.setBounds(0, 144, 182, 21);
 		panel.add(btnCurandero);
@@ -106,26 +110,46 @@ public class Combate2 extends JFrame {
 		panel.add(btnNewButton_1_1);
 		
 		JButton btnNewButton_1_1_1 = new JButton("Rezos");
+		btnNewButton_1_1_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			}
+		});
 		btnNewButton_1_1_1.setBackground(Color.MAGENTA);
 		btnNewButton_1_1_1.setBounds(0, 207, 182, 21);
 		panel.add(btnNewButton_1_1_1);
 		
 		JButton btnNewButton_1_1_1_1 = new JButton("Rezos");
+		btnNewButton_1_1_1_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			}
+		});
 		btnNewButton_1_1_1_1.setBackground(Color.MAGENTA);
 		btnNewButton_1_1_1_1.setBounds(236, 207, 212, 21);
 		panel.add(btnNewButton_1_1_1_1);
 		
 		JButton btnNewButton_1_1_2 = new JButton("Hechizos");
+		btnNewButton_1_1_2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			}
+		});
 		btnNewButton_1_1_2.setBackground(Color.YELLOW);
 		btnNewButton_1_1_2.setBounds(236, 176, 212, 21);
 		panel.add(btnNewButton_1_1_2);
 		
 		JButton btnCurandero_1 = new JButton("Espada");
+		btnCurandero_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			}
+		});
 		btnCurandero_1.setBackground(Color.GREEN);
 		btnCurandero_1.setBounds(236, 144, 212, 21);
 		panel.add(btnCurandero_1);
 		
 		JButton btnNewButton_1 = new JButton("Arco");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			}
+		});
 		btnNewButton_1.setBackground(Color.RED);
 		btnNewButton_1.setBounds(236, 113, 212, 21);
 		panel.add(btnNewButton_1);
